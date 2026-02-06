@@ -1,0 +1,24 @@
+
+roi_asset: "projects/metric-426111/assets/Pakistan_Boundary"
+mode: "months"
+months:
+  - "2025-07"
+  - "2025-08"
+viz:
+  min: 0
+  max: 300
+  palette:
+    - "#ffffff"
+    - "#ccebc5"
+    - "#7bccc4"
+    - "#43a2ca"
+    - "#0868ac"
+    - "#084081"
+export:
+  dimensions: 720
+  fps: 1
+  crs: "EPSG:4326"
+  out_dir: "outputs"
+  out_gif: "Pakistan_chirps_monthly_2025-07_to_2025-08.gif"
+labeling:
+  out_gif_labeled: "Pakistan_chirps_monthly_2025-07_to_2025-08_labeled.gif"
